@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat';
+  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h3 {
+  position: absolute;
+  top: 60px;
+  font-size: 20px;
+ 
+  
+}
+
+p {
+  width: 450px;
+  position: relative;
+  top: -60px;
+  line-height: 30px;
+}
+
+.checkbox_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+  margin-bottom: 5px;
+}
+
+
+
+.custom_checkbox {
+  height:30px;
+  width: 30px;
+  border: 3px solid rgb(123, 255, 47);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas.fa-check.active {
+  display: flex;
+}
+
+.fas.fa-check {
+  display: none;
+  background: rgb(123, 255, 47);
+  color: #fff;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.text_message {
+  font-weight: bold;
+ 
+}
+
